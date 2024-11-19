@@ -17,3 +17,13 @@
 ## connecting notebook to colab
 - link the notebook in the readme
 
+
+## Colab
+- Table of content
+- Heirarchy of projects
+    - Ingesion
+    - EDA
+    - Modeling
+    - Conclusion
+
+- Save a copy in GitHub
