@@ -6,10 +6,10 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=app test_app.py
+	python -m pytest -vv --cov=TSP test_TSP.py
 
 lint:
-	pylint --disable=R,C app.py
+	pylint --disable=R,C *.py
 
 format:
 	black *.py
