@@ -73,7 +73,7 @@ def run(cities, city_cordinates):
 
 def runs(trials):
     # find the cordinates for the cities
-    cities = config.CITIES.copy()
+    cities = config.CITIES
     cordinates = find_cordinates(cities)
 
     min_distance = 10e100
@@ -85,7 +85,7 @@ def runs(trials):
             min_distance = result["distance"]
             optimal_solution = result
 
-    # print(optimal_solution)
+    print(optimal_solution)
     return optimal_solution
 
 
