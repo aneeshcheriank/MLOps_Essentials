@@ -27,3 +27,11 @@
     - Conclusion
 
 - Save a copy in GitHub
+- [additional reading](https://www.coursera.org/learn/devops-dataops-mlops-duke/supplement/5eZOD/additional-readings)
+
+## heuristcs
+- repo: nogibjj/heuristics
+- devcibtauber.json file
+- sketchpad
+
+
