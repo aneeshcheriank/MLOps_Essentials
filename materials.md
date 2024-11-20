@@ -37,7 +37,6 @@
 
 ## Additional Reading
 
-|---|---|---|---|
 |Title|Type|Length(Minutes)|Brief Description|
 |---|---|---|---|
 |[Greedy Optimization Repo](https://github.com/nogibjj/Coursera-MLOps-C2-lab4-greedy-optimization)|Interactive Tutorial|15-30|This GitHub repo features a lab called "Greedy Optimization," aimed at teaching students how to enhance command-line tools and scripts for improved performance and functionality. By engaging with this lab, students will learn to modify a greedy change tool for better robustness and explore error handling and script improvements. They will also work with a traveling salesman algorithm to optimize simulation runs. The lab provides a Python script implementing the greedy coin change algorithm, offering practical experience in working with real-world code.|
