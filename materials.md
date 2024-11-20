@@ -36,6 +36,7 @@
 
 
 ## Additional Reading
+
 |---|---|---|---|
 |Title|Type|Length(Minutes)|Brief Description|
 |---|---|---|---|
