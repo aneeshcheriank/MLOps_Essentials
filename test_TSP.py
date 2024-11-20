@@ -10,6 +10,7 @@ from TSP import (
     runs,
 )
 
+
 @pytest.fixture
 def mock_geolocator():
     """Fixture to mock geolocator for consistent results."""
@@ -23,6 +24,8 @@ def mock_geolocator():
         yield mock_instance
 
 
+# pylint: disable=redefined-outer-name
+# pylint: disable=unused-argument
 def test_find_cordinates(mock_geolocator):
     city_list = ["Berlin", "UnknownCity"]
     expected = {
