@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 import click
 from geopy.geocoders import Nominatim
-from random import choice
+from geopy.distance import geodesic
+from random import choice, shuffle
 import config
 
 user_agent = "Test_user_agent_Aneesh"
@@ -41,9 +42,7 @@ def city_with_short_distance(city, cities, geo_cordinates):
 
 
 def distance_between_cities(cordinate_1, cordinate_2):
-    x1, y1 = cordinate_1
-    x2, y2 = cordinate_2
-    distance = ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
+    distance = geodesic(cordinate_1, cordinate_2).kilometers
     return distance
 
 
@@ -74,6 +73,7 @@ def run(cities, city_cordinates):
 def runs(trials):
     # find the cordinates for the cities
     cities = config.CITIES
+    shuffle(cities)
     cordinates = find_cordinates(cities)
 
     min_distance = 10e100
